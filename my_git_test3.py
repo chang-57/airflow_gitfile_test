@@ -12,7 +12,7 @@ def save_posts(ti) -> None:
         json.dump(posts[0], f)
 
 with DAG(
-    dag_id='a_mymy_gittest2',
+    dag_id='a_mymy_gittest3',
     schedule_interval='@daily',
     start_date=datetime(2022, 3, 1),
     catchup=False
